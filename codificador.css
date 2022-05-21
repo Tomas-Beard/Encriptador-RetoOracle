@@ -1,0 +1,101 @@
+body {
+  background: rgb(127, 143, 143);
+}
+
+#area {
+  display: inline-flex;
+  height: 570px;
+  width: 1300px;
+  /* background-color: antiquewhite; */
+  margin-left: 1%;
+  padding-top: 1%;
+}
+
+#encriptArea {
+  display: inline-block;
+  width: 60%;
+  height: 95%;
+  background-color: none;
+  padding-left: 3%;
+  margin-left: 2%;
+
+  margin-right: 1%;
+}
+aside {
+  width: 30%;
+  height: 95%;
+}
+
+#codigo {
+  display: inline-block;
+  margin-top: 1%;
+  margin-right: 1%;
+  border-style: none;
+  width: 95%;
+  height: 90%;
+  resize: none;
+  background-color: rgb(237, 235, 234);
+  box-shadow: 2px 2px 10px rgb(93, 100, 100);
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: Lato;
+  font-weight: lighter;
+  font-size: 20px;
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(68, 89, 75);
+}
+
+#resultArea {
+  display: inline-block;
+  margin-top: 2.5%;
+  margin-bottom: 1%;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 92%;
+  border-style: none;
+  border-radius: 2px;
+  background-image: url(1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  box-shadow: 2px 2px 10px rgb(93, 100, 100);
+}
+
+#respuesta {
+  width: 95%;
+  height: 95%;
+  margin-left: 10px;
+  margin-right: 10px;
+  word-break: break-word;
+  font-family: Lato;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#copy {
+  margin-left: 35%;
+  margin-top: 1%;
+}
+/* textarea {
+  display: inline-block;
+}
+input {
+  display: inline-block;
+} */
+
+.button {
+  padding: 5px 30px;
+  margin-left: 10%;
+  border-style: none;
+  border-radius: 25px;
+  font-family: Lato;
+  font-weight: 600;
+}
+#botonera {
+  padding-top: 0.5%;
+  margin-left: 18%;
+}

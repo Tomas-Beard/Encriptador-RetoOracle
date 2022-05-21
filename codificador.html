@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="codificador.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <header>
+    <h1
+      style="
+        color: rgb(205, 210, 216);
+        margin-left: 1%;
+        font-family: Alegreya Sans SC, sans-serif;
+      "
+    >
+      Encriptador & Desencriptador Alura &reg
+    </h1>
+  </header>
+  <script src="codificador.js"></script>
+  <body>
+    <div id="area">
+      <div id="encriptArea">
+        <textarea
+          name=""
+          id="codigo"
+          cols="30"
+          rows="10"
+          placeholder="Escribir sin acentos......."
+        ></textarea>
+        <div id="botonera">
+          <input
+            type="button"
+            class="button"
+            value="Encriptar"
+            id="encriptador"
+            onclick="`${encriptador()}`"
+          />
+          <input
+            type="button"
+            class="button"
+            value="Desencriptar"
+            onclick="`${desencriptar()}`"
+          />
+        </div>
+      </div>
+      <aside>
+        <div id="resultArea"><p id="respuesta"></p></div>
+        <input
+          type="button"
+          class="button"
+          id="copy"
+          value="Copiar"
+          onclick="`${copiar()}`"
+        />
+      </aside>
+    </div>
+  </body>
+</html>
